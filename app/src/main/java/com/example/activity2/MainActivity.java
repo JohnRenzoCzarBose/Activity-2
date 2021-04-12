@@ -80,7 +80,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 text_answer.setText(String.valueOf('0'));
+                text_num1.setText(String.valueOf('0'));
+                text_num2.setText(String.valueOf('0'));
             }
+
         });
 
 
